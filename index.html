@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Repositories</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+<div class="container mt-5">
+  <h1 class="mb-4">GitHub Repositories</h1>
+
+  <!-- Search Bar -->
+  <label for="searchInput">Search Username:</label>
+  <input type="text" id="searchInput" class="form-control mb-3" placeholder="Enter GitHub Username">
+  <input type="button" class="btn btn-primary search-button" value="Search">
+
+
+
+  <!-- Profile Details -->
+  <div id="profile" class="profile-container">
+
+    <div id="profile-image" class="image-container">
+
+        <!-- Profile image -->
+    </div>
+
+    <div class="bio" id="profile-bio">
+        <!-- Bio details will be dynamically added here using JavaScript -->
+      </div>
+
+
+
+
+  </div>
+  <div class="github-link" id="githubLink">
+    <a href="#" target="_blank">
+    </a>
+  </div>
+  <!-- Repository List -->
+  <div id="repoList" class="card-container">
+    <!-- Cards will be dynamically added here using JavaScript -->
+    <div class="loader" id="loaderRepositories"></div>
+  </div>
+
+  <!-- Pagination -->
+  <nav aria-label="Page navigation">
+    <ul class="pagination">
+      <!-- Pagination items will be dynamically added here using JavaScript -->
+    </ul>
+  </nav>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
